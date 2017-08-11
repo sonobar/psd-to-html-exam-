@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Psd to HTML Exam</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <style>* {
+    margin: 0px;
+    padding: 0px;
+}
+.top_header { min-height: 5px;
+    width: 100%;
+    background-color: orange;}
+
+.header {min-height:100px; width: 100%;overflow: hidden;background-color: white; 
+}
+
+.header_wrapper {  min-height: 80px;width: 70%;overflow: hidden;margin: 0px auto;border-bottom: 1px solid black;}
+
+.header_left_logo {float: left; min-height: 100px; width: 100%;overflow: hidden;
+}
+
+.header_right {float: right;}
+
+.header_right_top {width: 100%; min-height: 100px;float: right;
+}
+.header_right_top label {float: right;}
+.header_right_bottom {width: 100%; min-height: 80px;float: right;text-decoration: none;
+}
+.header_right_bottom ul {float: right;}
+
+.header_right_bottom ul li { float: left;margin-left: 45px;list-style: none;
+}
+
+.header_right_bottom ul li a {text-decoration: none;color: orange;
+}
+
+.header_right_bottom ul li a:hover{color: grey;}
+
+.slider {min-height: 380px; width: 100%;margin-top: 5px;overflow: hidden;}
+
+.slider_wrapper {background-color: orange;min-height: 380px;width: 70%;margin: 0px auto;background-repeat: no-repeat;overflow: hidden;position: relative;}
+
+.slider_left {  min-height: 380px;width: 50%;float: left;}
+
+.slider_left_top {min-height: 280px;width: 80%;float: left;margin-left: 20px;}
+.slider_left_top img{height: 240px;width: 90%;margin-left: 2%;margin-top: 27px;}
+
+.slider_left_bottom { background-color: black;min-height: 20px;width: 90%;margin-left: 2%;margin-top: 2%;float: left;padding: 3%;}
+
+.slider_left_bottom_text {color: lightgray;width: 50%;float: left;}
+
+.slider_left_bottom_button { width: 50%;float: right;text-align: right;}
+.slider_left_bottom_button a{ text-decoration: none;color: gold;}
+.slider_right {width: 50%;float: right;min-height: 382px;}
+
+.slider_right_image1 {position: absolute;right: 0;bottom: 0;z-index: 1;}
+
+.slider_right_image2 {float: right;position: absolute;bottom: 0;}
+
+.container { width: 100%;min-height: 250px;margin-bottom:0px;}
+
+.container_wrapper { width: 70%;min-height: 250px;border-top: 1px solid black;margin: 0px auto;margin-top: 5px;}
+
+.container_left {min-height: 250px;width: 30%;float: left;}
+
+.container_left_top {min-height: 30px;margin-top: 10px;border-bottom: 6px solid black;}
+
+.container_left_bottom {margin-top: 20px;}
+
+.container_middle { min-height: 250px;width: 30%;float: left;margin-left: 45px;}
+
+.container_middle_top {border-bottom: 5px solid black;min-height: 30px;margin-top: 10px;}
+
+.container_middle_bottom {margin-top:20px }
+
+.container_right {min-height: 250px;
+    width: 30%;
+    float: right;}
+.container_right_top {min-height: 30px;margin-top: 10px;border-bottom: 6px solid black;}
+
+.container_right_bottom {margin-top: 20px;}
+
+.portfolio {min-height: 250px;
+    width: 100%;
+    overflow: hidden;}
+
+
+.portfolio_wrapper {min-height: 250px;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 5px;
+    border-top: 1px solid grey;
+    box-sizing: border-box;
+
+}
+
+.portfolio_top { min-height: 40px;
+    width: 100%;
+    margin-top: 27px;}
+
+.portfolio_bottom { min-height: 160px;
+    width: 100%;
+}
+
+.portfolio_1 {min-height: 200px;
+    width: 22%;
+    margin-right: 3%;
+    float: left;}
+
+.portfolio_2 {   min-height: 200px;
+    width: 22%;
+    margin-right: 3%;
+    float: left;}
+
+.portfolio_3 {min-height: 200px;
+    width: 22%;
+    margin-right: 3%;
+    float: left;
+}
+
+.portfolio_4 {min-height: 200px;
+    width: 22%;
+    margin-right: 3%;
+    float: right;}
+
+.info {min-height: 150px;
+    width: 100%;}
+
+.info_wrapper { min-height: 150px;
+    width: 70%;
+    margin: 0px auto;}
+
+.info_left {min-height: 150px;
+    width: 70%;
+    float: left;}
+
+.info_left_top { min-height: 30px;
+    width: 100%;}
+
+.info_left_bottom { min-height: 100px;
+    width: 90%;
+    margin-top: 5px;
+
+}
+
+.info_right {min-height: 150px;
+    width: 30%;
+    float: right;}
+.info_right_top { min-height: 30px;
+    width: 100%;}
+
+.info_right_bottom {min-height: 100px;
+    width: 90%;}
+
+.footer { min-height: 120px;
+    width: 100%;
+    background-color: #E2E2E2;
+
+}
+
+.footer_wrapper {min-height: 120px;
+    width: 70%;
+    margin: 0px auto;}
+
+.footer_left { min-height: 120px;
+    width: 70%;
+    float: left;}
+.footer_left_top {
+    min-height: 60px;
+    width: 100%;}
+
+.footer_left_bottom { min-height: 60px;
+    width: 100%;}
+
+
+.footer_right {min-height: 120px;
+    width: 30%;
+    float: right;
+}
+
+</style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+         <div class="top_header"></div>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_left_logo">
+                <img src="img/logo.png"/>
+            </div>
+            <div class="header_right">
+                <div class="header_right_top">
+                    <label>info@CreativeStudio.com</label>
+
+                </div>
+                <div class="header_right_bottom">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">PORTFOLIO</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slider_wrapper">
+            <div class="slider_left">
+                <div class="slider_left_top">
+                    <img src="img/contanttext.png"/>
+                </div>
+                <div class="slider_left_bottom">
+                    <div class="slider_left_bottom_text">
+                        <p>HERE'S SOME NICE WORK</p>
+                    </div>
+                    <div class="slider_left_bottom_button">
+                        <a href="">VIEW PORTFOLIO </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_right">
+                <div class="slider_right_image1">
+                    <img src="img/layer.png"/>
+                </div>
+                <div class="slider_right_image2">
+            <img src="img/header-layer.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container_wrapper">
+            <div class="container_left">
+                <div class="container_left_top">
+                    <i class="fa  fa-long-arrow-right"></i>
+                    <img src="img/aboutus.png"/>
+                </div>
+                <div class="container_left_bottom">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsam placeat nesciunt repellat molestiae ea beatae, perferendis ipsa quidem sint ipsum itaque velit cupiditate reprehenderit eveniet, in soluta tempora consequatur.</p>
+                </div>
+            </div>
+            <div class="container_middle">
+                <div class="container_middle_top">
+                    <i class="fa  fa-long-arrow-right"></i>
+                <img src="img/ourbenefits.jpg"/>
+                </div>
+                <div class="container_middle_bottom">
+                    <i class="fa fa-check-square-o "></i>
+                    <img src="img/icon1.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <i class="fa fa-check-square-o "></i>
+                    <img src="img/icon1.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <i class="fa fa-check-square-0"></i>
+                    <img src="img/icon1.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="container_right">
+                <div class="container_right_top">
+                    <i class="fa  fa-long-arrow-right"></i>
+                    <img src="img/testimonials.jpg"/>
+                </div>
+                <div class="container_right_bottom">
+            
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <label for="">Rafi, Graphicsfuel.com</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="portfolio_wrapper">
+            <div class="portfolio_top">
+                <i class="fa  fa-long-arrow-right"></i>
+                <img src="img/ourportfolio.png"/>
+
+            </div>
+            <div class="portfolio_bottom">
+                <div class="portfolio_1">
+                    <img src="img/layer.png16.png"/>
+                </div>
+                <div class="portfolio_2">
+                    <img src="img/layer.png17.png"/>
+                </div>
+                <div class="portfolio_3">
+                    <img src="img/layer17copy.png"/>
+                </div>
+                <div class="portfolio_4">
+                <img src="img/layer18.png"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="info">
+        <div class="info_wrapper">
+            <div class="info_left">
+                <div class="info_left_top">
+                    <i class="fa  fa-long-arrow-right"></i>
+                    <img src="img/blogupdates.png"/></div>
+                <div class="info_left_bottom"></div>
+            </div>
+            <div class="info_right">
+                <div class="info_right_top">
+                    <img src="img/conenctwithus.png"/>
+                </div>
+                <div class="info_right_bottom">
+                    <img src="img/twittericon.png"/>
+                    <img src="img/facebookicon.png"/>
+                    <img src="img/icon3.png"/>
+                    <img src="img/icon4.png"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_left">
+                <div class="footer_left_bottom">
+                    <i class="fa fa-copyright">
+                </i>
+                    <p>HOME| ABOUT US | PORTFOLIO | SERVICES | BLOG| CONTACT US |</p>
+                <p> @2010 CreativeStudio. All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="footer_right">
+                <img src="img/footerlogo.png" alt="logo"/>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
